@@ -1,2 +1,55 @@
 @import './common';
 @import './example';
+.main {
+  position: sticky;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+.head {
+ display:flex;
+}
+.btn {
+  display:flex;
+  justify-content: right;
+
+}
+.a {
+  display:flex;
+  justify-content: right;
+}
+.logo {
+
+
+}
+.row {
+  display: flex;
+  flex-wrap: wrap ;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.card {
+  min-width: 308px;
+  max-width: 1124px;
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+}
+@media (max-width: 1124px) {
+  .card {width: 308px;}
+}
+
+@media (max-width: 768px) {
+  .card {width: 308px;}
+}
+.search {
+  font-style: italic;
+  text-decoration: underline;
+  font-size:12px;
+  flex-basis: 100%;
+}
+.find {
+  display:flex;
+  flex-basis: 100%;
+  color: purple ;
+}
