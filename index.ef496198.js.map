@@ -1,0 +1,1 @@
+{"mappings":"AAAaA,SAASC,cAAc,UAC7BC,QAAU,WACfC,QAAQC,IAAI","sources":["src/index.js"],"sourcesContent":["let button = document.querySelector('button');\nbutton.onclick = function() {\n  console.log('Клиааак!');\n\n};"],"names":["document","querySelector","onclick","console","log"],"version":3,"file":"index.ef496198.js.map"}
